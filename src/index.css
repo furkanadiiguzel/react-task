@@ -7,7 +7,10 @@
   --color-text-muted: #667085;
   --color-primary: #3b5bdb;
   --color-primary-soft: #edf2ff;
+  --color-primary-hover: #2f4ac0;
   --color-danger: #d92d20;
+  --color-danger-soft: #fef3f2;
+  --color-danger-border: #fecdca;
   --radius: 8px;
   --radius-lg: 12px;
 

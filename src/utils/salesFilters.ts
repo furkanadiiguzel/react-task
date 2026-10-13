@@ -5,10 +5,7 @@ import {
   type SalesSummary,
   type SortOrder,
 } from '../types/sales';
-
-const LOCALE = 'tr-TR';
-
-const normalize = (text: string): string => text.trim().toLocaleLowerCase(LOCALE);
+import { normalizeText } from './text';
 
 export const getRecordTotal = (record: SalesRecord): number => record.price * record.quantity;
 
@@ -19,10 +16,10 @@ export const filterRecords = (
   records: SalesRecord[],
   { search, category }: SalesFilters,
 ): SalesRecord[] => {
-  const query = normalize(search);
+  const query = normalizeText(search);
 
   return records.filter((record) => {
-    const matchesSearch = query === '' || normalize(record.product).includes(query);
+    const matchesSearch = query === '' || normalizeText(record.product).includes(query);
     const matchesCategory = category === ALL_CATEGORIES || record.category === category;
     return matchesSearch && matchesCategory;
   });

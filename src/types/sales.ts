@@ -6,6 +6,18 @@ export interface SalesRecord {
   quantity: number;
 }
 
+export type NewSalesRecord = Omit<SalesRecord, 'id'>;
+
+// Form inputs are always strings; they are parsed into numbers after validation.
+export interface RecordFormValues {
+  product: string;
+  category: string;
+  price: string;
+  quantity: string;
+}
+
+export type RecordFormErrors = Partial<Record<keyof RecordFormValues, string>>;
+
 export type SortOrder = 'default' | 'asc' | 'desc';
 
 export interface SalesFilters {
