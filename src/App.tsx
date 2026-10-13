@@ -47,6 +47,14 @@ const App = () => {
         <Button variant="secondary" onClick={handleReset}>
           Verileri sıfırla
         </Button>
+        <Button variant="secondary" onClick={() => {setSearch('');setCategory('ALL_ITEMS'); } }>  
+      
+          Aramayı temizle
+
+      
+          
+        </Button>
+        
       </header>
 
       <FilterBar
