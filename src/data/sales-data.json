@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "product": "Laptop",
+    "category": "Elektronik",
+    "price": 15000,
+    "quantity": 2
+  },
+  {
+    "id": 2,
+    "product": "Mouse",
+    "category": "Elektronik",
+    "price": 700,
+    "quantity": 5
+  },
+  {
+    "id": 3,
+    "product": "Masa",
+    "category": "Mobilya",
+    "price": 8000,
+    "quantity": 1
+  },
+  {
+    "id": 4,
+    "product": "Klavye",
+    "category": "Elektronik",
+    "price": 2000,
+    "quantity": 3
+  },
+  {
+    "id": 5,
+    "product": "Sandalye",
+    "category": "Mobilya",
+    "price": 10000,
+    "quantity": 2
+  },
+  {
+    "id": 6,
+    "product": "Monitör",
+    "category": "Elektronik",
+    "price": 6500,
+    "quantity": 2
+  },
+  {
+    "id": 7,
+    "product": "Kitaplık",
+    "category": "Mobilya",
+    "price": 4500,
+    "quantity": 1
+  },
+  {
+    "id": 8,
+    "product": "Kulaklık",
+    "category": "Elektronik",
+    "price": 1200,
+    "quantity": 4
+  },
+  {
+    "id": 9,
+    "product": "Lamba",
+    "category": "Dekorasyon",
+    "price": 900,
+    "quantity": 3
+  },
+  {
+    "id": 10,
+    "product": "Halı",
+    "category": "Dekorasyon",
+    "price": 3200,
+    "quantity": 2
+  }
+]
